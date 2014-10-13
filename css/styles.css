@@ -1,0 +1,188 @@
+/*styles.css*/
+*{padding: 0; margin: 0;}
+/*******************************
+TYPE
+*******************************/
+/*Base*/
+body {
+	font-size: 100%;
+	font-family: 'Raleway', sans-serif;
+	color: #343434;
+}
+
+/*Headers*/
+h1, h2, h3, h4 {font-weight: 600; color: #cb5c5c;}
+h1 {font-size: 3.75em;}   /*60px*/
+h2 {font-size: 2.25em;}   /*36px*/
+h3 {font-size: 1.5em;}    /*24px*/
+h4 {font-size: 1.125em;}  /*18px*/
+h5 {font-size: 1em;}      /*16px*/
+
+
+/*Standard*/
+p, a, li {
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+a, a:hover, a:focus {text-decoration: none;}
+
+/*******************************
+THEME STYLES
+*******************************/
+/*Defaults*/
+.panel-heading {
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+/*btn custom*/
+a.btn-custom {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+	display: inline-block;
+	padding: 15px;
+	min-width: 250px;
+	border-radius: 4px;
+}
+
+a.btn-primary {background: #cb5c5c;}
+a.btn-primary:hover {background: #B64B4B;}
+a.btn-dark {background: #343434;}
+a.btn-dark:hover {background:#222;}
+
+/*Header*/
+#site-header {
+	background: #343434;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+}
+
+#site-header a {
+	color: #fff;
+}
+
+/*logo*/
+a#site-logo {
+	font-size: 2.25rem;
+	font-weight: 700;
+	color: #cb5c5c;
+	float: left;
+	padding: .9375rem;
+}
+
+a#site-logo span {
+	font-weight: 400;
+	color: #fff;
+}
+
+/*header nav*/
+#nav-list {
+	float: right;
+	margin-bottom: 0px;
+}
+
+#nav-list li {
+	float: left;
+	list-style: none;
+}
+
+#nav-list li a {
+	padding: 1.875rem 1.25rem;
+	display: inline-block;
+	font-weight: 600;
+}
+
+#nav-list li a:hover, #nav-list li a.active {
+	background: #cb5c5c;
+}
+
+#nav-toggle {
+	float: right;
+	padding: 1.5rem;
+	background: #cb5c5c;
+	display: none;
+}
+
+/*masthead*/
+#masthead {
+	background: url('../img/masthead-bg.jpg') no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	padding: 13em 0;
+	margin-top: 5.2em;
+}
+
+#masthead h1 {
+	color: #fff;
+	margin: .1em 0;
+	letter-spacing: .05em
+}
+
+#masthead p {
+	font-size: 1.125em;
+}
+
+#masthead .btn-custom {
+	margin-top: 2rem;
+}
+
+/*ribbon*/
+#ribbon {
+	background: #cb5c5c;
+	padding: 4rem 0;
+}
+
+#ribbon h2 {
+	color: #fff;
+}
+
+/*about section*/
+#about {
+	padding: 7.81rem 0 8.31rem 0;
+	background: #343434;
+	color: #fff;
+}
+
+#about h4 {
+	color: #fff;
+}
+
+.about-blurb {
+	margin-bottom: 2rem;
+}
+
+#portfolio {
+	padding: 7.81rem 0 8.31rem 0;
+}
+
+#portfolio h4 {
+	color: #343434;
+}
+
+#contact {
+	padding: 7.81rem 0 8.31rem 0;
+	background: #343434;
+}
+
+#contact h4 {
+	color: #fff;
+}
+
+#contact-form input, #contact-form textarea {
+	background: #343434;
+	border: 1px solid #fff;
+	width: 100%;
+	padding: 15px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+#contact-form textarea {
+	height: 300px;
+}

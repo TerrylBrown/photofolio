@@ -1,0 +1,61 @@
+/*media queries*/
+@media screen and (max-width: 52em) {
+	body {
+		font-size: 90%;
+	}
+	h1 {
+		font-size: 2.75em;
+	}
+
+	a#site-logo {
+		padding: .48rem;
+	}
+
+	#masthead {
+		margin-top: 4em;
+		padding: 10% 0;
+	}
+
+	/*nav collapse*/
+	#nav-toggle {
+		display: block;
+	}
+
+	#nav-list {
+		display: block;
+		float: none;
+		margin-top: 4em;
+		display: none;
+		clear: both;
+	}
+
+	#nav-list li {
+		display: block;
+		float: none;
+	}
+
+	#nav-list li a {
+		width: 100%;
+		padding: 1rem 1.25rem;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 30em) {
+	body {
+		font-size: 80%;
+	}
+	h1 {
+		font-size: 2.25em;
+	}
+
+	#ribbon h2 {
+		font-size: 1.8em;
+	}
+
+	a#site-logo {
+		padding: .4rem;
+	}
+
+
+}
